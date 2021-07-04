@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal web page - Nenad Petrovikj</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div id="headerLeft">
+            <div id="sidenavLeft">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a>Nenad Petrovikj</a>
+                <a href="#linkWhoAmI" onclick="closeNav()">Кој сум јас?</a>
+                <a href="#linkEducation" onclick="closeNav()">Едукација</a>
+                <a href="#linkWorkRelatedSkills" onclick="closeNav()">Вештини поврзани со работата</a>
+                <a href="#linkKeySkills" onclick="closeNav()">Клучни вештини</a>
+                <a href="#linkLifeGoal" onclick="closeNav()">Мојата животна цел</a>
+                <a href="#linkSport" onclick="closeNav()">Јас и спортот</a>
+                <a href="#linkMusic" onclick="closeNav()">Јас и мојата гитара</a>
+                <a href="#linkAltruism" onclick="closeNav()">Јас и алтруизмот во мене</a>
+            </div>
+
+            <!-- fino e vaka imeto samo malce da mu go smenam stilot po stosno da e so pomos na spam-->
+            <span style="color: white; font-size: 40px; cursor: pointer" onclick="openNav()">&#9776;</span>
+            <!--<a href="index.html">&emsp;Nenad Petrovikj</a>-->
+
+            <script>
+                function openNav() {
+                    document.getElementById("sidenavLeft").style.width = "340px";
+                }
+                function closeNav() {
+                    document.getElementById("sidenavLeft").style.width = "0";
+                }
+            </script>
+        </div>
+        <div id="headerRight">
+            <ul id="sidenavRight">
+                <!--<a><span>Get in touch with me:</span></a>-->
+                <li><a href="https://www.facebook.com/profile.php?id=100007071014752" target="_blank" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/nenad.petrovik/" target="_blank" class="fa fa-instagram"></a></li>
+                <li><a href="https://twitter.com/nenad_petrovik" target="_blank" class="fa fa-twitter"></a></li>
+                <li><a href="mailto:petrovikj.nenad@gmail.com" class="fa fa-google"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+                mybutton.style.display = "block";
+            }
+            else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+    <section>
+    <article id="mainIntro">
+            <!--konsultiraj se dali da ima hello world!-->
+            <h1>WELCOME TO NENAD PETROVIKJ'S PERSONAL WEBSITE.</h1>
+            <br>
+            <h3>STUDENT &emsp; -  &emsp; TECH GEEK &emsp; - &emsp; MUSICIAN &emsp; - &emsp; ATHLETE</h3>
+    </article>
+    </section>
+
+    <section id="content">
+
+        <hr class="firstLine">
+
+        <article id="whoAmI">
+            <div id="firstArticleLeft">
+                <h1><a id="linkWhoAmI">Кој сум јас?<!--Who am I?--></a></h1>
+                <br>
+                <p> Јас сум млад 20 годишен креативен човек, по природа ведар и секогаш оптимистички расположен. Одговорен сум,
+                    секогаш исполнителен и педантен во однос на секојдневните обврски, а се разбира и кон зададените обврски.
+                    Често правам планови и максимално се вложувам, истите што покомплетно и поквалитетно да ги остварам.</p>
+                <p> Мојата сегашна цел е имплементирање на моите знаења и несебичен труд во работи кои ќе придонесат за подобрување
+                    и усовршување или пак поедноставување на одредени технолошки процеси. </p>
+                <p> Ги сакам луѓето и не ми претставува проблем да работам со било кого, било каде, во помал или поголем тим.
+                    Во склад со денешното брзо темпо на живеење и функционирање, се вклопувам најдобро што можам, со оглед на тоа
+                    дека сум брзо достапен, мобилен и адаптибилен, почитувајќи го туѓото време.</p>
+            </div>
+            <div id="firstArticleRight">
+                <img src="images/WhoAmI2.jpg">
+            </div>
+        </article>
+
+        <hr class="firstLine">
+
+        <article id="education">
+            <div id="secondArticleLeft">
+                <img src="images/WhoAmI2.jpg">
+            </div>
+            <div id="secondArticleRight">
+                <h1><a id="linkEducation">Едукација<!--My work experience--></a></h1>
+                <br>
+                <p> Во моментот сум активен студент во прва година на ФИНКИ. Изборот за овој факултет воопшто не беше случаен. Мојата
+                    желба и визија за овие студии ја добив и развивав уште од многу рана возраст, така што направив се за да ја остварам
+                    истата. Токму затоа го завршив најелитното гимназиско образование во СУГС „Раде Јовчевски Корчагин“, со нагласен
+                    акцент на природните науки, особено на математиката. </p>
+                <p> По успешно завршената прва година студии, со стекнатите нови знаења во областите кои од поодамна ме интересирале, имам
+                    повеќе планови. Веќе започнав со правење на мали лични проекти, како стартна точка со која ќе навлезам во светот на
+                    практичното програмирање и развој. </p>
+                <p> Имам за цел, да аплицирам на неколку места кои разработуваат ваква проблематика и да се инкорпорирам во веќе основан и
+                    сигурен тим кој функционира на повисоко ниво. Попатно ќе се обидам да го дадам мојот максимален придонес, многу да
+                    научам и со време квалитетно да се надградам себеси.</p>
+            </div>
+        </article>
+
+        <hr class="firstLine">
+
+        <article id="skills">
+            <h1><a id="linkWorkRelatedSkills">Вештини поврзани со работата</a></h1>
+            <br>
+            <br>
+            <div id="communicationSkills">
+                <h2>Communication Skills</h2>
+                <br>
+                <p> As a result of my wide personal past experience acquired through a number of group projects, with various types of peoples characters, I believe I am clear, exact, explicit and to the point, regardless of the type
+                    of communication being conducted. Being an extrovert myself, I strive to be eloquent in expressing my thoughts and plans. Of course, since communication is a two way street, speaking aside, I am patient and careful
+                    while listening to my interlocutor. One of my most important acquired skills is fully understanding the thoughts of the speaker/s. Being an active user of both English and French, also comes in handy when trying to
+                    communicate to most associates or just people.</p>
+                <br>
+            </div>
+            <br>
+            <br>
+            <div id="organisingSkills">
+                <h2>Organisation Skills</h2>
+                <br>
+                <p> I am responsible and executive person with an expressive spirit, who almost always leads and represents the team I am a part of. Being the person I am, I`m always open for cooperation!</p>
+                <br>
+            </div>
+            <br>
+            <div id="computerSkills">
+                <h2>Computer Skills</h2>
+                <br>
+                <p> As an active student at the Faculty of Computer Science and Engineering I have acquired quality basic knowledge of informatics and programming. Additionally, my personal research in things that interest me most and
+                    some useful courses along the way have also helped me better understand a few more areas related to computers and the science behind them, how they work, and most importantly how to work with them.</p>
+                <br>
+            </div>
+            <br>
+            <div id="boxes">
+                <div id="c">
+                    <span class="percentage">75%</span>
+                    <span class="text">C/C++</span>
+                </div>
+                <div id="htmlCSSJava">
+                    <span class="percentage">60%</span>
+                    <span class="text">HTML, CSS, JavaScript</span>
+                </div>
+                <div id="microsoft">
+                    <span class="percentage">90%</span>
+                    <span class="text">Microsoft office</span>
+                </div>
+            </div>
+
+        </article>
+
+        <hr class="firstLine">
+
+        <article id="keySkills">
+            <h1><a id="linkKeySkills">Клучни вептини</a></h1>
+            <br>
+            <div id="firstRow">
+                <div id="one">Organised & Constructive</div>
+                <div id="two">Cooperative <!--& Commutative--><br>(online & in person)</div>
+                <div id="three">Idea & Realisation</div>
+            </div>
+            <div id="secondRow">
+                <div id="four">Creative & Suggestive</div>
+                <div id="five">Precise & Focused</div>
+                <div id="six">Persistent & Invested</div>
+            </div>
+        </article>
+
+        <hr class="firstLine">
+
+        <article id="lifeGoal">
+            <div>
+                <h1><a id="linkLifeGoal">Мојта животна цел</a></h1>
+                <p> Некои луѓе одбираат целиот работен век да се фокусираат само на една проблематика,
+                    но јас преферирам моето внимание да го посветам на повеќе полиња на кои
+                    би се поветил студиозно и безпоштедно, се до остварување на квалитетен резултат,
+                    со што очекувам да придонесам повеќекратно во повеќе области.</p>
+            </div>
+        </article>
+
+        <hr class="firstLine">
+
+        <article id="athlete">
+            <h1><a id="linkSport">Јас и спортот</a></h1>
+            <br>
+            <div>
+                <p> Повеќе нешта во животот ми причинуваат задоволство. Покрај студиите, дел од моето време го
+                    посветувам на различни спортски активности. Секогаш кога имам можност да се вклопам во тим,
+                    го правам тоа, а преферирам да играм фудбал, кошарка и одбојка. Велосипедот и трчењето ми се
+                    секојдневие, а пливањето ми е задоволство секогаш коа има можности за тоа. Со овие три дисциплини
+                    имам земамено учество на повеќе досегашни маратони и триатлони.</p>
+                </div>
+            <img src="images/postEditedMarathon.jpg">
+
+            <!--        <div id="left"></div>
+            <div id="middle"></div>
+            <div id="right"></div>-->
+        </article>
+
+        <hr class="firstLine">
+
+        <article id="divided">
+            <div>
+                <h1><a id="linkMusic">Јас и мојата гитара</a></h1>
+                <p>
+                    Не постои човек што не сака музика. Јас ја сакам и ја интерпретирам, свирејќи на мојата гитара.
+                </p>
+                <img src="images/gitara.jpg">
+            </div>
+            <div>
+                <h1><a id="linkAltruism">Јас и алтруизмот во мене</a></h1>
+                <p>
+                    Чувството да помогнеш некому, на било кој начин, секогаш носи задоволство. Јас одбрав едноставен,
+                    истовремено благороден начин, повеќекратно тоа да го доживеам, преку крводарителството. Се додека
+                    спортувам и се чувствувам здрав, ќе го практикувам тоа.
+                </p>
+                <img src="images/daruvanjeKrv2.jpg">
+            </div>
+        </article>
+    </section>
+
+</body>
+</html>

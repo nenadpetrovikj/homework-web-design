@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-
+    font-family: "Trebuchet MS";
 }
 header {
     position: fixed;
@@ -147,7 +147,7 @@ section:first-of-type {
     clear: both;
     font-size: 50px;
     padding-top: 0.5vw;
-    height: 250vw;
+    height: 245vw;
     background: gray;
     background: linear-gradient(#42647F, #030d03);
     /*background: linear-gradient(#3B3B3B, black);*/
@@ -194,6 +194,14 @@ section:first-of-type {
     color: white;
     font-size: 1.2vw;
 }
+#mainIntro a {
+    text-decoration: none;
+    color: white;
+}
+#mainIntro a:hover {
+    color: darkgray;
+    transition: 0.3s;
+}
 
 #whoAmI {
     color: white;
@@ -203,6 +211,19 @@ section:first-of-type {
     margin-left: 20%;
     width: 28%;
     float: left;
+}
+#firstArticleLeft p:last-of-type {
+    text-indent: 0;
+    text-align: center;
+}
+#firstArticleLeft p a {
+    text-decoration: none;
+    color: darkgray;
+}
+#firstArticleLeft p a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s;
 }
 /*glej da go trgnes # ako nema potreba*/
 section h1{
@@ -214,6 +235,7 @@ section p {
     text-indent: 4vw;
     text-align: justify;
 }
+
 section br{
     display: block;
     content: " ";
@@ -240,47 +262,49 @@ section br{
 }
 #secondArticleRight {
     border-radius: 15px;
-    padding: 1vw;
+    /*padding: 1vw;*/
     margin-right: 20%;
     width: 28%;
     float: right;
 }
-#secondArticleRight:hover {
+/*#secondArticleRight:hover {
     background: radial-gradient(white, #F8F8F8 10%, #F5F5F5, #E8E8E8, #DCDCDC, #D3D3D3, #C8C8C8, #BEBEBE, #B0B0B0);
     color: #202020;
     box-shadow: 0.4vw 0.4vw 0.3vw black;
     transition: 0.5s;
-}
+}*/
 #athlete {
     clear: both;
     color: black;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 20vw;
+    height: 16vw;
     /*height: 41vw;*/
     /*border: white 5px solid;
     border-radius: 15px;*/
 }
 #athlete div{
     float: left;
-    margin-left: 10%;
+    color: white;
+    width: 28%;
+    margin-left: 20%;
 }
 #athlete img {
     float: right;
-    height: 10vw;
-
+    height: 15vw;
+    margin-right: 20%;
+    border: white 1px solid;
+    border-radius: 15px;
 }
 #athlete h1 {
     color: white;
 }
-#athlete p {
+/*#athlete p {
     color: white;
     text-indent: 0;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2vw;
-}
+}*/
 /*#athlete #left {
     box-sizing: border-box;
     float: left;
@@ -454,7 +478,7 @@ section br{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vw;
+    height: 12vw;
     border-radius: 5px;
     background: radial-gradient(white, #F8F8F8, #F5F5F5, #E8E8E8, #DCDCDC, #D3D3D3, #C8C8C8, #BEBEBE, #B0B0B0);
     /*background: radial-gradient(white, #F5F5F5, #F0F0F0, #E8E8E8, #E0E0E0, #DCDCDC, #D8D8D8, #D3D3D3, #D0D0D0, 	#C8C8C8, #C0C0C0, #BEBEBE);*/
@@ -471,6 +495,12 @@ section br{
     color: #505050;
     text-indent: 0;
     text-align: center;
+}
+#techGeek {
+    color: white;
+    height: 12vw;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #divided {
@@ -496,7 +526,7 @@ section br{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 5%;
+    margin-right: 4.5%;
     float: right;
     width: 42%;
     height: 35vw;

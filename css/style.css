@@ -8,6 +8,15 @@ html{
 body {
     font-family: "Trebuchet MS";
 }
+.menuButton {
+    color: white;
+    font-size: 3vw;
+    cursor: pointer;
+}
+.menuButton:hover {
+    font-size: 4vw;
+    transition: 0.25s;
+}
 header {
     position: fixed;
     width: 100%;
@@ -53,8 +62,9 @@ header {
     font-size: 35px;
     cursor: default;
 }
-#sidenavLeft a:hover {
+#sidenavLeft a:not(a:nth-of-type(2)):hover {
     color: darkgray;
+    font-size: 2.1vw;
     transition: 0.3s;
 }
 #sidenavLeft a:nth-of-type(2):hover {
@@ -90,7 +100,7 @@ header {
 #sidenavRight a {
     margin-left: 5px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1.5vw;
     width: 16px;
     text-align: center;
     text-decoration: none;
@@ -107,16 +117,6 @@ header {
     color: black;
     transition: 0.3s;
 }
-/*#sidenavRight a:first-child {
-    padding: 0 0 0 0;
-    margin: 20px 5px 20px 20px;
-    background-color: black;
-    color: white;
-    border: solid 1px black;
-}*/
-/*#sidenavRight a:first-child:hover {
-    opacity: 1;
-}*/
 #myBtn {
     position: fixed;
     bottom: 20px;
@@ -135,6 +135,7 @@ header {
 #myBtn:hover {
     color: black;
     background-color: white; /* Add a dark-grey background on hover */
+    padding: 0.7vw 1.4vw 1vw;
     transition: 0.3s;
 }
 
@@ -146,8 +147,7 @@ section:first-of-type {
     border-top: white 1px solid;
     clear: both;
     font-size: 50px;
-    padding-top: 0.5vw;
-    height: 245vw;
+    padding: 2vw 0;
     background: gray;
     background: linear-gradient(#42647F, #030d03);
     /*background: linear-gradient(#3B3B3B, black);*/
@@ -200,6 +200,7 @@ section:first-of-type {
 }
 #mainIntro a:hover {
     color: darkgray;
+    padding: 0 20px;
     transition: 0.3s;
 }
 
@@ -338,7 +339,7 @@ section br{
 }*/
 #skills {
     clear: both;
-    height: 45vw;
+    padding: 2vw 0;
     color: white;
 }
 #skills br {
@@ -373,43 +374,20 @@ section br{
     margin-top: 2.5vw;
     height: 14vw;
     background: transparent;
-    margin-left: 20%;
-    margin-right: 20%;
     padding-top: 1vw;
-    padding-left: 4.5%;
     display: flex;
+    flex-direction: row;
     /*border: white 2px solid;*/
     border-radius: 15px;
-    justify-content: center;
-}
-/*#boxes:hover {
-    background: #42647F;
-    color: black;
-    transition: 0.3s;
-}*/
-#c, #htmlCSSJava, #microsoft {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    margin-right: 6%;
-}
-.percentage:hover {
-    background: radial-gradient(white, #F8F8F8 10%, #F5F5F5, #E8E8E8, #DCDCDC, #D3D3D3, #C8C8C8, #BEBEBE, #B0B0B0);
-    /*background: radial-gradient(white, #F5F5F5 10%, #F0F0F0, #E8E8E8, #E0E0E0, #DCDCDC, #D8D8D8, #D3D3D3, #D0D0D0, #C8C8C8, #C0C0C0, #BEBEBE);*/
-    /*background: #B7C3D0;*/
-    color: black;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.text {
-    text-align: center;
-    font-size: 2vw;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .percentage {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5vw;
+    text-align: center;
+    font-size: 1.7vw;
     height: 10vw;
     width: 10vw;
     margin-right: auto;
@@ -419,6 +397,14 @@ section br{
     border-radius: 15px;
     color: white;
     box-shadow: 0.4vw 0.3vw 0.3vw black;
+}
+.percentage:hover {
+    background: radial-gradient(white, #F8F8F8 10%, #F5F5F5, #E8E8E8, #DCDCDC, #D3D3D3, #C8C8C8, #BEBEBE, #B0B0B0);
+    background: white;
+    color: black;
+    font-size: 2.2vw;
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 #one, #two, #three, #four, #five, #six {
@@ -533,6 +519,10 @@ section br{
     background: radial-gradient(white, #F8F8F8, #F5F5F5, #E8E8E8, #DCDCDC, #D3D3D3, #C8C8C8, #BEBEBE, #B0B0B0);;
     border-radius: 15px;
     box-shadow: 0.6vw 0.5vw 0.5vw black;
+}
+#divided div:hover {
+    padding: 3vw 0;
+    transition: 0.25s;
 }
 #divided img, #divided p, #divided h1 {
     text-indent: 0;

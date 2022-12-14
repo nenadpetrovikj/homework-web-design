@@ -269,6 +269,9 @@ section br{
     width: 28%;
     float: right;
 }
+#secondArticleRight h1 {
+    margin-bottom: 15px;
+}
 /*#secondArticleRight:hover {
     background: radial-gradient(white, #F8F8F8 10%, #F5F5F5, #E8E8E8, #DCDCDC, #D3D3D3, #C8C8C8, #BEBEBE, #B0B0B0);
     color: #202020;

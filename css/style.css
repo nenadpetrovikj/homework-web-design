@@ -299,48 +299,9 @@ section br{
 #athlete h1 {
     color: white;
 }
-/*#athlete p {
-    color: white;
-    text-indent: 0;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2vw;
-}*/
-/*#athlete #left {
-    box-sizing: border-box;
-    float: left;
-    width: 25%;
-    height: 22vw;
-    margin-left: 10%;
-    border: white 5px solid;
-    border-radius: 15px;
-    background-color: transparent;
-}
-#athlete #middle {
-    box-sizing: border-box;
-    float: left;
-    width: 25%;
-    height: 22vw;
-    margin-left: 2.5%;
-    border: white 5px solid;
-    border-radius: 15px;
-    background-color: transparent;
-}
-#athlete #right {
-    box-sizing: border-box;
-    float: left;
-    width: 25%;
-    height: 22vw;
-    margin-left: 2.5%;
-    border: white 5px solid;
-    border-radius: 15px;
-    background-color: transparent;
-
-}*/
 #skills {
     clear: both;
-    padding: 2vw 0;
+    padding: 1vw 0;
     color: white;
 }
 #skills br {
@@ -364,18 +325,10 @@ section br{
     font-size: 2vw;
 }
 
-#keySkills {
-    height: 24vw;
-}
-#keySkills h1 {
-    color: white;
-}
-
 #boxes {
     margin-top: 2.5vw;
     height: 14vw;
     background: transparent;
-    padding-top: 1vw;
     display: flex;
     flex-direction: row;
     /*border: white 2px solid;*/
@@ -408,6 +361,13 @@ section br{
     cursor: pointer;
 }
 
+#keySkills {
+    padding-top: 1vw;
+    padding-bottom: 10vw;
+}
+#keySkills h1 {
+    color: white;
+}
 #one, #two, #three, #four, #five, #six {
     float: left;
     display: flex;
@@ -461,16 +421,18 @@ section br{
 #six {
     border-radius: 0 15px 15px 15px;
 }
+
 #lifeGoal {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 12vw;
+    padding: 1.5vw 0;
     border-radius: 5px;
     background: radial-gradient(white, #F8F8F8, #F5F5F5, #E8E8E8, #DCDCDC, #D3D3D3, #C8C8C8, #BEBEBE, #B0B0B0);
     /*background: radial-gradient(white, #F5F5F5, #F0F0F0, #E8E8E8, #E0E0E0, #DCDCDC, #D8D8D8, #D3D3D3, #D0D0D0, 	#C8C8C8, #C0C0C0, #BEBEBE);*/
 }
 #lifeGoal div {
+    padding: 1vw 0;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -485,7 +447,7 @@ section br{
 }
 #techGeek {
     color: white;
-    height: 12vw;
+    padding: 1.5vw 0;
     margin-left: 10%;
     margin-right: 10%;
 }

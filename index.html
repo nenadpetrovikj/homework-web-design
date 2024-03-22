@@ -1,278 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Personal web page - Nenad Petrovikj</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Icon Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Nenad's personal website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/laptop-icon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-    <header>
-        <div id="headerLeft">
-            <div id="sidenavLeft">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a>Nenad Petrovikj</a>
-                <a href="#linkWhoAmI" onclick="closeNav()">Who am I?</a>
-                <a href="#linkEducation" onclick="closeNav()">Education</a>
-                <a href="#linkWorkRelatedSkills" onclick="closeNav()">Work related skills</a>
-                <a href="#linkKeySkills" onclick="closeNav()">Key skills</a>
-                <a href="#linkLifeGoal" onclick="closeNav()">My life goal</a>
-                <a href="#linkTech" onclick="closeNav()">The tech enthusiast inside me</a>
-                <a href="#linkSport" onclick="closeNav()">Me and sports</a>
-                <a href="#linkMusic" onclick="closeNav()">Me and my guitar</a>
-                <a href="#linkAltruism" onclick="closeNav()">Me and my altruism inside me</a>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.JPG" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Nenad Petrovikj</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/nenadpetrovikj" target="_blank" class="instagram"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/nenadpetrovikj/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/nenad-petrovikj/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#people_skills" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>People Skills</span></a></li>
+          <li><a href="#tech_skills" class="nav-link scrollto"><i class="bx bx-laptop"></i> <span>Tech Skills</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Nenad Petrovikj</h1>
+      <p>I'm a <span class="typed" data-typed-items="CS Undergrad, Data Scientist, Web Developer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I am a young 22 year old creative person, bright by nature and always in an optimistic mood. In terms of my everyday tasks and obligations being given, I am responsible, executive and meticulous. I make plans in advance and I`m fully invested in them in order to accomplish my objectives completely and with a high degree of quality.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/diploma-img.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Computer Science and Software Engineering student</h3>
+            <p class="fst-italic">
+              at the Faculty of Computer Science and Engineering
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate - 4th & last year</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>17 November 2001</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Skopje, Macedonia</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+389 78 502 979</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>petrovikj.nenad@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              My current goal is implementing my knowledge and hard work into IT projects that will contribute towards creating, improving and perfecting certain technological processes. In line with today`s fast pace of living and functioning, I fit in the best I can, given that I am quickly accessible, mobile and adaptable, respecting other people's time. I love people and it has never been a problem of mine to work with anyone, anywhere, in a smaller or bigger team. As a responsible person with an expressive spirit, I`m always open for cooperation!
+            </p>
+            <p>
+              <a href="assets/documents/CV_Nenad_Petrovikj.pdf">Download my CV</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>At the moment I am an active student in fourth year, planning to graduate by the end of 2024. The choice for this faculty isn`t accidental whatsoever. My desire and vision for these studies has grown for many years and I did my best to make it a reality. Step by step, I plan to use my newly acquired knowledge to enter the practical world of business & development, as well as grow on a professional level as an engineer.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Nenad Petrovikj</h4>
+              <p>Hard-working and goal-oriented student with professional practice experience in Data Science and Machine Learning, as well as university experience in product design and web development of e-commerce & services websites using multiple programming languages and frameworks.</p>
             </div>
 
-            <!-- fino e vaka imeto samo malce da mu go smenam stilot po stosno da e so pomos na spam-->
-            <span class="menuButton" onclick="openNav()">&#9776;</span>
-            <!--<a href="index.html">&emsp;Nenad Petrovikj</a>-->
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Undergrad in Computer Science and Software Engineering</h4>
+              <h5>2020 - Present</h5>
+              <p><em>Faculty of Computer Science and Engineering (FINKI)</em><br><em>"Ss. Cyril and Methodious" University, Skopje</em></p>
+              <p>Currently I am in my fourth and last year of studies, perusing my bachelor's degree in Computer Science, having completed more than 30 IT related subjects</p>
+            </div>
+            <div class="resume-item pb-0">
+              <h4>High school graduate in Natural Science and Mathematics</h4>
+              <h5>2016 - 2020</h5>
+              <p><em>Rade Jovchevski – Korchagin, Skopje</em></p>
+              <p>Completed four years of high school, focusing on a field I am particularly interested in, i.e. Natural Science and Mathematics, averaging a grade of 4.9/5.0</p>
+            </div>
 
-            <script>
-                function openNav() {
-                    document.getElementById("sidenavLeft").style.width = "23vw";
-                }
-                function closeNav() {
-                    document.getElementById("sidenavLeft").style.width = "0";
-                }
-            </script>
+            <h3 class="resume-title">Professional & Volunteering Experience</h3>
+            <div class="resume-item">
+              <h4>Backend Product Manager</h4>
+              <h5>2024, March - Present</h5>
+              <p><em>Faculty project (in progress)</em></p>
+              <ul class="mb-0">
+                <li>Developing a web app service for pet-care. </li>
+                <li>Managing activities for 3 backend developers. </li>
+                <li>Playing a roll in product design and architecture. </li>
+                <li>Mostly working with <b>Java, SpringBoot</b> and collaborating software <b>Jira.</b> </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Data Science Project Collaborator</h4>
+              <h5>2023, October - Present</h5>
+              <p><em>Faculty project (in progress)</em></p>
+              <p>Technologies used: <b>Python, Pandas + SkLearn + Tensorflow.</b></p>
+              <ul>
+                <li>Forecasting patient SpO2 levels from PPG signal measurements. </li>
+                <li>A scientific paper to be released in April. </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="resume-item">
+              <h4>Data Science Intern</h4>
+              <h5>2023, July - December</h5>
+              <p><em>Fraunhofer Institute for Energy Economy and Energy System Technology, Germany<br>(internal only)</em></p>
+              <ul class="mb-0">
+                <li>Literature research related to artificial generation of heat pump profiles. </li>
+                <li>Processing, analyzing and modeling energy heat pump consumption profiles.  </li>
+                <li>Use of <b>Random Forest Classifier and Regressor, Support Vector Classifier, LSTM and SARIMAX in model creation in Python.</b> </li>
+                <li>Representation and evaluation of results. Code documentation.</li>
+                <li>Development of plotting functions for improved representation of various clustering systems.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Web development Project Collaborator</h4>
+              <h5>2023, Feb - September</h5>
+              <p><em>Faculty project (not hosted)</em></p>
+              <p>Technologies used: <b>Java, SpringBoot + Thymeleaf + PostgreSQL.</b></p>
+              <ul class="mb-0">
+                <li>Development of a web app keeping track of internal faculty matter, discussed during mandatory quarterly meetings.</li>
+                <li>Student related CRUD operations: Request for applying to a Masters or PhD program, Request for credits from extracurricular activities, etc.</li>
+                <li>Professor related CRUD operations: Call for a professor role, Request for payed absence, Faculty courses related questions, etc.</li>
+              </ul>
+            </div>
+            <div class="resume-item pb-0">
+              <h4>Web Design</h4>
+              <h5>2021, May-August</h5>
+              <p><em>Personal work (hosted)</em></p>
+              <p>Technologies used: <b>HTML, CSS, JavaScript and Bootstrap.</b></p>
+              <ul>
+                <li>Created a personal website, with the idea of digitalising information about myself that can be accessed using the following <a href="https://nenadpetrovikj.github.io/">link</a>.</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Other</h3>
+            <div class="resume-item pb-0">
+              <h4>Certificates</h4>
+              <h5>2024</h5>
+              <p><em>Communication skills for future leaders</em></p>
+              <h5>2023</h5>
+              <p><em>Participation in Zoran Djindjic Internship Programme of German Bussiness</em></p>
+              <h5>2022</h5>
+              <p><em>3rd place in an “Engineering Competition” sponsored by “KOSTAL Automobil Elektrik“</em></p>
+            </div>
+          </div>
         </div>
-        <div id="headerRight">
-            <ul id="sidenavRight">
-                <!--<a><span>Get in touch with me:</span></a>-->
-                <li><a href="https://www.facebook.com/profile.php?id=100007071014752" target="_blank" class="fa fa-facebook"></a></li>
-                <li><a href="https://www.instagram.com/nenad.petrovik/" target="_blank" class="fa fa-instagram"></a></li>
-                <li><a href="https://twitter.com/nenad_petrovik" target="_blank" class="fa fa-twitter"></a></li>
-                <li><a href="mailto:petrovikj.nenad@gmail.com" class="fa fa-google"></a></li>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="people_skills" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>People skills</h2>
+          <p>As a driven person, my organizational abilities and commitment to excellence are what set me apart. Being an extrovert myself, I strive to be explicit, eloquent and clear in expressing my thoughts and plans. Despite my relatively limited professional experience, my involvement in numerous team projects with various types of people's characters, throughout my academic journey has improved my understanding of time management, task organization, and effective prioritization. These experiences have equipped me with invaluable skills that I am eager to apply and further develop in real-world scenarios. With a proactive approach to learning and a determination to succeed, I am prepared to make a meaningful impact in any endeavor I undertake.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title"><a href="">Management & Collaboration</a></h4>
+            <p class="description">Capable in leading teams and fostering effective collaboration.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Organised & Focused</a></h4>
+            <p class="description"> Proficient in ensuring a structured approach towards problem-solving, driving constructive outcomes.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-lightbulb"></i></div>
+            <h4 class="title"><a href="">Creative & Suggestive</a></h4>
+            <p class="description"> Innovative when contributing with ideas, encouraging collaboration and fresh perspectives.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-check-all"></i></div>
+            <h4 class="title"><a href="">Idea & Realization</a></h4>
+            <p class="description">Able to transform concepts into visible results through thorough execution.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title"><a href="">Precise & Constructive</a></h4>
+            <p class="description">Attentive to detail and maintaining focus on goals with precision, keeping track of time.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Persistent & Invested</a></h4>
+            <p class="description">Driven by perseverance, deeply committed to achieving meaningful results.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Tech Skills Section ======= -->
+    <section id="tech_skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Technical skills</h2>
+          <p>Being an active student at the Faculty of Computer Science and Engineering, as well as having completed a 6 month internship in IT in Germany, I have acquired quality basic knowledge of informatics and programming. Additionally, personal research in things that interest me most, along with the completion of useful courses and workshops, has helped me better understand a few more areas related to computers and the science behind them, how they operate, and most importantly how to work with them.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">Java + SpringBoot<i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C# + .NetCore <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS + Bootstrap <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Microsoft Office Package <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Out of all projects that I have worked during my studies, the following are the ones I am the most proud of. These are completed in fields such as Web Development with the use of multiple programming languages and frameworks, as well as Data Science where the focus was set on processing, analysis and model building. </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-java">Java</li>
+              <li data-filter=".filter-python">Python</li>
             </ul>
+          </div>
         </div>
-    </header>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
-    <script>
-        //Get the button:
-        mybutton = document.getElementById("myBtn");
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+          <div class="col-lg-4 col-md-6 portfolio-item filter-java">
+            <a href="https://github.com/nenadpetrovikj/Ednevnik" target="_blank">
+              <div class="portfolio-wrap bg-black">
+                <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid opacity-50" alt="">
+                <div class="caption">
+                  <h4 class="text-center text-white">E - dnevnik</h4>
+                  <p class="text-center text-white">Web app for management of internal faculty matter</p>
+                </div>
+              </div>
+            </a>
+          </div>
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-                mybutton.style.display = "block";
-            }
-            else {
-                mybutton.style.display = "none";
-            }
-        }
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-    </script>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <a href="https://github.com/nenadpetrovikj/DNICK_SMD_app" target="_blank">
+              <div class="portfolio-wrap bg-black">
+                <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid opacity-50" alt="">
+                <div class="caption">
+                  <h3 class="text-center text-white">SMD</h3>
+                  <h5 class="text-center text-white">E-shop for Smart Mobile devices</h5>
+                </div>
+              </div>
+            </a>
+          </div>
 
-    <section>
-    <article id="mainIntro">
-            <!--konsultiraj se dali da ima hello world!-->
-            <h1>WELCOME TO NENAD PETROVIKJ'S PERSONAL WEBSITE</h1>
-            <br>
-        <h3><a href="#linkEducation">STUDENT</a> &emsp; -  &emsp; <a href="#linkTech">TECH ENTHUSIAST</a> &emsp; - &emsp; <a href="#linkMusic">MUSICIAN</a> &emsp; - &emsp; <a href="#linkSport">ATHLETE</a></h3>
-    </article>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-java">
+            <a href="https://github.com/IskraNa/FurryFootsteps" target="_blank">
+              <div class="portfolio-wrap bg-black">
+                <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid opacity-50" alt="">
+                <div class="caption">
+                  <h4 class="text-center text-white">Fluffy Footsteps</h4>
+                  <p class="text-center text-white">Web app service for pet-care</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-python">
+            <a href="https://github.com/nenadpetrovikj" target="_blank">
+              <div class="portfolio-wrap bg-black">
+                <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid opacity-50" alt="">
+                <div class="caption">
+                  <h4 class="text-center text-white">Patient's Blood Oxygen</h4>
+                  <p class="text-center text-white">Forecasting SpO2 levels from PPG signals</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-java">
+            <a href="https://github.com/nenadpetrovikj/DIANS_MarkTheMarket" target="_blank">
+              <div class="portfolio-wrap bg-black">
+                <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid opacity-50" alt="">
+                <div class="caption">
+                  <h4 class="text-center text-white">MarkTheMarket</h4>
+                  <p class="text-center text-white">Web app for filtering through grocery stores</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
     </section>
 
-    <section id="content">
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
 
-        <hr class="firstLine">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+        </div>
 
-        <article id="whoAmI">
-            <div id="firstArticleLeft">
-                <h1><a id="linkWhoAmI">Who am I?</a></h1>
-                <br>
-                <p> I am a young 21 year old creative person, bright by nature and always in an optimistic mood.
-                    In terms of my everyday tasks, as well as the obligations being given, I am responsible, executive
-                    and meticulous. I usually make plans in advance and I`m fully invested in them, so I can accomplish
-                    my objective more complete and with higher quality.</p>
-                <p> My current goal is implementing my knowledge and hard work into things that will
-                    contribute for improving and perfecting, while simplifying certain technological processes.</p>
-                <p> I love people and it has never been a problem of mine to work with anyone, anywhere, in a smaller
-                    or bigger team. In line with today`s fast pace of living and functioning, I fit in the best
-                    I can, given that I am quickly accessible, mobile and adaptable, respecting other people's time.</p>
-                <p> <a href="resources/CV_Nenad_Petrovikj.pdf">Download my CV</a></p>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
 
-            </div>
-            <div id="firstArticleRight">
-                <img src="images/WhoAmI2.jpg">
-            </div>
-        </article>
-
-        <hr class="firstLine">
-
-        <article id="education">
-            <div id="secondArticleLeft">
-                <img src="images/maturskaSlika.JPG">
-            </div>
-            <div id="secondArticleRight">
-                <h1><a id="linkEducation">Education</a></h1>
-                <p> In the moment I am an active student in third year at the Faculty of Computer Science and Engineering – FINKI.
-                    The choice for this faculty isn`t at all accidental. I got and grew my desire and vision for these studies, since
-                    very young age, so I did my best to make It happen. That`s the exact reason why I finished the most elite high
-                    school education in “Rade Jovcevski - Korcagin”, with an emphasis on natural sciences, especially, mathematics.</p>
-                <p> After successfully completing these past two years of my studies, with the newly acquired knowledge in areas that have
-                    interested me for a long time, I have more plans in mind. I`ve already started making small personal projects, as
-                    a starting point through which I will enter the world of practical programming and development.</p>
-                <p> My goal is to apply to several places that face with such issues and to be incorporated into an already established
-                    and reliable team that operates at a higher level. Along the way I`ll try to give my maximum contribution, I`ll
-                    strive to learn a lot and with time to upgrade myself and my knowledge.</p>
-            </div>
-        </article>
-
-        <hr class="firstLine">
-
-        <article id="skills">
-            <h1><a id="linkWorkRelatedSkills">Work related skills</a></h1>
-            <br>
-            <br>
-            <div id="communicationSkills">
-                <h2>Communication Skills</h2>
-                <br>
-                <p> As a result of my wide personal past experience acquired through a number of group projects, with various types of peoples characters, I believe I am clear, exact, explicit and to the point, regardless of the type
-                    of communication being conducted. Being an extrovert myself, I strive to be eloquent in expressing my thoughts and plans. Of course, since communication is a two way street, speaking aside, I am patient and careful
-                    while listening to my interlocutor. One of my most important acquired skills is fully understanding the thoughts of the speaker/s. Being an active user of both English and French, also comes in handy when trying to
-                    communicate to most associates or just people.</p>
-                <br>
-            </div>
-            <br>
-            <br>
-            <div id="organisingSkills">
-                <h2>Organisation Skills</h2>
-                <br>
-                <p> I am responsible and executive person with an expressive spirit, who almost always leads and represents the team I am a part of. Being the person I am, I`m always open for cooperation!</p>
-                <br>
-            </div>
-            <br>
-            <div id="computerSkills">
-                <h2>Computer Skills</h2>
-                <br>
-                <p> As an active student at the Faculty of Computer Science and Engineering I have acquired quality basic knowledge of informatics and programming. Additionally, my personal research in things that interest me most and
-                    some useful courses along the way have also helped me better understand a few more areas related to computers and the science behind them, how they work, and most importantly how to work with them.</p>
-                <br>
-            </div>
-            <br>
-            <div id="boxes">
-                <div id="c">
-                    <span class="percentage">C/C++</span>
-                </div>
-                <div id="htmlBox">
-                    <span class="percentage">HTML</span>
-                </div>
-                <div id="cssBox">
-                    <span class="percentage">CSS</span>
-                </div>
-                <div id="jsBox">
-                    <span class="percentage">JavaScript</span>
-                </div>
-                <div id="javaBox">
-                    <span class="percentage">Java</span>
-                </div>
-                <div id="microsoft">
-                    <span class="percentage">Microsoft Office Package</span>
-                </div>
-            </div>
-
-        </article>
-
-        <hr class="firstLine">
-
-        <article id="keySkills">
-            <h1><a id="linkKeySkills">Key Skills</a></h1>
-            <br>
-            <div id="firstRow">
-                <div id="one">Organised & Constructive</div>
-                <div id="two">Cooperative <!--& Commutative--><br>(online & in person)</div>
-                <div id="three">Idea & Realisation</div>
-            </div>
-            <div id="secondRow">
-                <div id="four">Creative & Suggestive</div>
-                <div id="five">Precise & Focused</div>
-                <div id="six">Persistent & Invested</div>
-            </div>
-        </article>
-
-        <hr class="firstLine">
-
-        <article id="lifeGoal">
-            <div>
-                <h1><a id="linkLifeGoal">My life goal</a></h1>
-                <br>
-                <p> Some people choose to focus only on one issue throughout their working life, however I
-                    prefer to dedicate my focus and attention on several fields in which I would devote myself
-                    studiously and relentlessly, until I achieve a quality result, with which I expect to
-                    contribute more times in more areas simultaneously. </p>
-            </div>
-        </article>
-
-        <hr class="firstLine">
-        <article id="techGeek">
-            <div>
-                <h1><a id="linkTech">The tech enthusiast inside me</a></h1>
-                <br>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
                 <p>
-                    As long as i can remember, I`ve been amazed by and somewhat obsessed with technology.
-                    The interest for it, probably sparked in me while watching some sci-fy movies when I was just a kid,
-                    then progressed into me being actively a part of tech communities, supporting tech channels or people
-                    on the internet and reading news about the latest and greatest achievements in the tech world.
-                    Initially phones, laptops and some useful gadgets got my attention, however, with me growing and maturing,
-                    the organisation, time, work and practically the whole build up before each and every product release
-                    by a company, made me interested in how that tech related company works, creates, develops and maintains
-                    everything on it`s product list.
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Moreover, he [Nenad] is a communicative and constructive person open to other’s opinions and suggestions, with a bright and adaptive personality, willing to work with various types of people.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <p> In this vast tech space, recently I`ve been most interested in the work
-                    of Elon Musk and his two companies - giants: Tesla and SpaceX. Other people I look upto are:
-                    Bill Gates and Marques Brownlee.
-                </p>
-            </div>
-        </article>
-        <hr class="firstLine">
+                <img src="assets/img/testimonials/saso_gramatikov.jpg" class="testimonial-img" alt="">
+                <h3>Sasho Gramatikov</h3>
+                <h4>Associate Prof. PhD</h4>
+              </div>
+            </div><!-- End testimonial item -->
 
-        <article id="athlete">
-            <div>
-            <h1><a id="linkSport">Me and sports</a></h1>
-            <br>
-            <p> Many things in life give me pleasure. In addition to the studies, I spend part of my time
-                on various sports activities. Whenever I have the opportunity to join a team, I do so, and
-                I prefer to play football, basketball and volleyball. Cycling and running are in my daily
-                routine, while swimming is always a pleasure when I get the chance to do so. With these three
-                disciplines I have taken part in several marathons and triathlons so far. </p>
-            </div>
-            <img src="images/postEditedMarathon.jpg">
-
-            <!--        <div id="left"></div>
-            <div id="middle"></div>
-            <div id="right"></div>-->
-        </article>
-
-        <hr class="firstLine">
-
-        <article id="divided">
-            <div>
-                <h1><a id="linkMusic">Me and my guitar</a></h1>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                 <p>
-                    Not one person exists, who doesn`t like music. I love it and interpret it, playing my guitar.
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Nenad displayed the qualities that make a student successful. He has proven to be a take-charge person who can successfully design a solution and later implement it. I expect him to perform well in a range of environments.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="images/gitara.jpg">
-            </div>
-            <div>
-                <h1><a id="linkAltruism">Me and the altruism inside me</a></h1>
+                <img src="assets/img/testimonials/stefan_andonov.jpg" class="testimonial-img" alt="">
+                <h3>Stefan Andonov</h3>
+                <h4>Asst. Prof. MA</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                 <p>
-                    The feeling of helping someone, in any way, always brings pleasure. I have chosen a simple, while
-                    at the same time noble way, to experience it many times, through blood donation. As long as I exercise
-                    and feel healthy, I will do just that.
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Mr. Petrovikj used his excellent and well-founded specialist knowledge with great success in his area of responsibility. He has the ability to quickly grasp and analyze complex issues and develop precise solutions.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="images/daruvanjeKrv2.jpg">
+                <img src="assets/img/testimonials/martin_braun.jpg" class="testimonial-img" alt="">
+                <h3>Martin Braun</h3>
+                <h4>Prof. PhD -Ing.</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Side Activities</h2>
+          <p></p>
+          <p>I prefer to dedicate my time, focus and mind on multiple activities, as many things in life bring me pleasure. In addition to the studies, I spend part of my time on various sports, so when an opportunity arises to join a team, I do so with excitement. For many years now, I have also played the guitar which has helped me cope with stress. Moreover, being presented the opportunity I want to give back since the feeling of helping someone, always brings me pleasure. I have chosen a simple, yet noble way, to experience this many times through blood donation. As long as I exercise and feel healthy, I will do just that. </p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-person-arms-up"></i>
+              <span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Races completed</strong><br>5k/10k/21k & hikes</p>
             </div>
-        </article>
-    </section>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-music-note"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Musician</strong><br>Years playing the guitar</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-droplet-half"></i>
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Altruist</strong><br>Times donated blood</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Contact Section ======= -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the documents in the footer should remain intact. -->
+        <!-- You can delete the documents only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>

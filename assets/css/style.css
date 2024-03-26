@@ -432,7 +432,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -728,7 +728,7 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: transparent;
 }
 
 .services .icon-box:hover .icon i {
@@ -1077,6 +1077,31 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+
+/*--------------------------------------------------------------
+# Table
+--------------------------------------------------------------*/
+
+.skills-content h5 {
+  color: #173b6c;
+}
+
+.skills-content div.col-lg-4 div {
+  background-color: #f5f8fd;
+}
+
+.skills-content div.col-lg-4 div:hover {
+  transition: 0.4s;
+  /*border-radius: 25px;*/
+  background-color: #173b6c;
+  color: white;
+  /*opacity: 90%;*/
+}
+
+.skills-content div.col-lg-4 div:hover h5 {
+  color: white;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
